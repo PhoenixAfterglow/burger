@@ -42,7 +42,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 ### Submission on BCS
 
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
+<!-- * **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository! -->
 
 ## Instructions
 
