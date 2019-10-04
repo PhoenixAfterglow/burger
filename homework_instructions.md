@@ -56,16 +56,16 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 4. Create a server.js file. -->
 
-5. Install the Handlebars npm package: `npm install express-handlebars`.
+<!-- 5. Install the Handlebars npm package: `npm install express-handlebars`. -->
 
-6. Install MySQL npm package: `npm install mysql`.
+<!-- 6. Install MySQL npm package: `npm install mysql`. -->
 
-7. Require the following npm packages inside of the server.js file:
-   * express
+<!-- 7. Require the following npm packages inside of the server.js file:
+   * express -->
 
 #### DB Setup
 
-1. Inside your `burger` directory, create a folder named `db`.
+<!-- 1. Inside your `burger` directory, create a folder named `db`. -->
 
 2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 
@@ -94,15 +94,15 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+<!-- 1. Inside your `burger` directory, create a folder named `config`. -->
 
-2. Create a `connection.js` file inside `config` directory.
+<!-- 2. Create a `connection.js` file inside `config` directory. -->
 
    * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
    * Export the connection.
 
-3. Create an `orm.js` file inside `config` directory.
+<!-- 3. Create an `orm.js` file inside `config` directory. -->
 
    * Import (require) `connection.js` into `orm.js`
 
@@ -116,9 +116,9 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 #### Model setup
 
-* Inside your `burger` directory, create a folder named `models`.
+<!-- * Inside your `burger` directory, create a folder named `models`. -->
 
-  * In `models`, make a `burger.js` file.
+  <!-- * In `models`, make a `burger.js` file. -->
 
     * Inside `burger.js`, import `orm.js` into `burger.js`
 
@@ -128,9 +128,9 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 #### Controller setup
 
-1. Inside your `burger` directory, create a folder named `controllers`.
+<!-- 1. Inside your `burger` directory, create a folder named `controllers`. -->
 
-2. In `controllers`, create the `burgers_controller.js` file.
+<!-- 2. In `controllers`, create the `burgers_controller.js` file. -->
 
 3. Inside the `burgers_controller.js` file, import the following:
 
@@ -239,6 +239,6 @@ If you have any questions about this project or the material we have covered, pl
 
 ### Reminder
 
-When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why.
+<!-- When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why. -->
 
 **Good Luck!**
