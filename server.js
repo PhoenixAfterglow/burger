@@ -3,7 +3,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
-// const favicon = require('serve-favicon');
 
 // Sets up the Express App
 // =============================================================
@@ -21,7 +20,7 @@ app.use(express.static(__dirname + "/public/assets"));
 // =============================================================
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-const routes = require("./controllers/burgerController.js");
+const routes = require("./controllers/burgers_controller.js");
 app.use(routes);
 
 // Starts the server to begin listening

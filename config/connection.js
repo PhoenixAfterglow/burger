@@ -1,20 +1,14 @@
-// Require mysql
+// Set up MySQL connection.
 const mysql = require("mysql");
 
-let connection;
-if(process.env) {
-  //Heroku deployment
-    connection = mysql.createConnection(process.env);
-} else {
-  //local host
-    connection = mysql.createConnection({
-        root: 3000,
-        host: "localhost",
-        user: "root",
-        password: "Phxrising20!",
-        database: "burgers_DB",
-    });
-};
+const connection = mysql.createConnection({
+  host: "localhost",
+  port: 3306,
+  user: "root",
+  password: "Phxrising20!",
+  database: "burgers_DB",
+});
+
 
 // Connect to the database
 connection.connect(function(err) {
