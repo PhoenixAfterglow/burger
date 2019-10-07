@@ -78,9 +78,11 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 <!-- 3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries. -->
 
-4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+<!-- 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line -->
 
-5. Now you're going to run these SQL files.
+<!-- NOTE: Step 5 is easier to do in ie MySQL Workbench -->
+
+<!-- 5. Now you're going to run these SQL files.
 
    * Make sure you're in the `db` folder of your app.
 
@@ -90,7 +92,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   * Close out of the MySQL command line tool: `exit`.
+   * Close out of the MySQL command line tool: `exit`. -->
 
 #### Config Setup
 
@@ -118,13 +120,13 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 <!-- * Inside your `burger` directory, create a folder named `models`. -->
 
-  <!-- * In `models`, make a `burger.js` file. -->
+  <!-- * In `models`, make a `burger.js` file. 
 
-    <!-- * Inside `burger.js`, import `orm.js` into `burger.js` -->
+    * Inside `burger.js`, import `orm.js` into `burger.js`
 <!-- 
-    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM. -->
+    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM. 
 
-    <!-- * Export at the end of the `burger.js` file. -->
+     * Export at the end of the `burger.js` file. -->
 
 #### Controller setup
 
@@ -149,7 +151,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
      * Create the `main.handlebars` file inside `layouts` directory. -->
 
-     * Setup the `main.handlebars` file so it's able to be used by Handlebars.
+     * Setup the `main.handlebars` file so it's able to be used by Handlebars. <<<<< DOUBLE CHECK >>>>>
 
      <!-- * Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
