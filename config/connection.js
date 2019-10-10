@@ -1,17 +1,24 @@
 // Set up MySQL connection.
 const mysql = require("mysql");
 
-const connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "Phxrising20!",
-  database: "burgers_DB",
-});
+// Connect to the Heroku database
+const connection;
+
+if (process.env.JAWS_URL) {
+  connection = mysql.createConnection(process.env.JAWS_URL);
+} else {
+  connection = mysql.createConnection({
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "Phxrising20!",
+    database: "burgers_DB",
+  })
+};
 
 
 // Connect to the database
-connection.connect(function(err) {
+connection.connect(function (err) {
   if (err) {
     console.error("error connecting: " + err.stack);
     return;
@@ -21,3 +28,4 @@ connection.connect(function(err) {
 
 // Export connection
 module.exports = connection;
+
