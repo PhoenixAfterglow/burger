@@ -3,7 +3,7 @@ require("dotenv").config();
 const mysql = require("mysql");
 
 // Connect to the Heroku database
-const connection;
+let connection;
 
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
